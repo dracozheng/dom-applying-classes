@@ -36,8 +36,7 @@ function three() {
   two.classList.add('red')
 }
 // CREATE FUNCTION makeVisible HERE
-function makeVisible(){
-  var makeVisible=document.getElementsByClassName[0]
-
-  makeVisible.classList.add('visible')
+function makeVisible () {
+  var makeVisible = document.getElementsByClassName('invisible')
+  makeVisible[0].classList.add('visible')
 }
